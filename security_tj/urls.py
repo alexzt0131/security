@@ -20,4 +20,5 @@ from security import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^index/', views.index),
+    url(r'^joinus$', views.join_us),
 ]
